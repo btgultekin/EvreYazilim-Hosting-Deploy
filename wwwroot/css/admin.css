@@ -1000,6 +1000,18 @@ body.admin-body {
     background: #fff;
 }
 
+.evre-pos-upload-progress {
+    border: 1px solid rgba(16, 73, 134, 0.12);
+    border-radius: 0.85rem;
+    background: rgba(36, 120, 255, 0.06);
+    padding: 0.9rem 1rem;
+}
+
+body.admin-body[data-admin-theme="dark"] .evre-pos-upload-progress {
+    border-color: rgba(148, 163, 184, 0.22);
+    background: rgba(59, 130, 246, 0.12);
+}
+
 @media (max-width: 992px) {
     .admin-sidebar {
         position: fixed;
